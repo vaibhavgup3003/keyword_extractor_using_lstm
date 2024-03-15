@@ -1,12 +1,11 @@
 
 import pickle
 import re
-!pip install nltk
-import nltk
-
 nltk.download("punkt")
 nltk.download("wordnet")
 nltk.download("stopwords")
+import nltk
+
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 import streamlit as st
