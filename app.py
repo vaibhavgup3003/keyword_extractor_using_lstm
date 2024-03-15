@@ -1,7 +1,9 @@
 
 import pickle
 import re
+!pip install nltk
 import nltk
+
 nltk.download("punkt")
 nltk.download("wordnet")
 nltk.download("stopwords")
