@@ -2,9 +2,9 @@
 import pickle
 import re
 import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('stopwords')
+nltk.download("punkt")
+nltk.download("wordnet")
+nltk.download("stopwords")
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 import streamlit as st
