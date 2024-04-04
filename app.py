@@ -1,7 +1,7 @@
 
 import pickle
 import re
-
+# !pip install -r requirement.txt
 import nltk
 nltk.download("punkt")
 nltk.download("wordnet")
