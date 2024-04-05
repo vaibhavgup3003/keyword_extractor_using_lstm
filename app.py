@@ -67,22 +67,22 @@ def extract_topn_from_vector(feature_names, sorted_items, topn=10):
         results[feature_vals[idx]] = score_vals[idx]
     return results
 
-# def add_bg_from_url():
-#                 st.markdown(
-#                     f"""
-#                      <style>
-#                      .stApp {{
-#                          background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fimages%2Flearn-french-guide-text-background-word-cloud-concept%2F165306740&psig=AOvVaw3dS12Ke9Tp47w8OBoLvlzt&ust=1710614465108000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjo8cvN9faEAxWCa2wGHUi8AdkQjRx6BAgAEBc");
-#                          background-attachment: fixed;
-#                          background-size: cover
-#                      }}
-#                      </style>
-#                      """,
-#                     unsafe_allow_html=True
-#                 )
+def add_bg_from_url():
+                st.markdown(
+                    f"""
+                     <style>
+                     .stApp {{
+                         background-image: url("https://w0.peakpx.com/wallpaper/510/490/HD-wallpaper-artificial-intelligence-and-the-future-of-cybersecurity.jpg");
+                         background-attachment: fixed;
+                         background-size: cover
+                     }}
+                     </style>
+                     """,
+                    unsafe_allow_html=True
+                )
 
 def main():
-    st.title('Keyword Extractor')
+    st.title('Keyword Extractor', )
 
     menu = ['Home', 'Extract Keywords', 'Search Keywords']
     choice = st.sidebar.selectbox('Menu', menu)
@@ -122,4 +122,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+    add_bg_from_url()
+    
     
